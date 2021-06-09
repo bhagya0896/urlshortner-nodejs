@@ -82,8 +82,8 @@
                         <% shortUrls.map((shortUrl,index)=> { %>
                             <tr class="text-style">
                                 <td><%= index+1%></td>
-                              <td><a class="table-content-style" href="<%= shortUrl.full  %>"><%= shortUrl.full %></a></td>
-                              <td><a class="table-content-style" href="<%= shortUrl.short %>"><%= shortUrl.short %></a></td>
+                              <td><a class="table-content-style" target="_blank" href="<%= shortUrl.full  %>"><%= shortUrl.full %></a></td>
+                              <td><a class="table-content-style" target="_blank" href="<%= shortUrl.short %>"><%= shortUrl.short %></a></td>
                               <td><%= shortUrl.clicks %></td>
                             </tr>
                           <% }) %>
